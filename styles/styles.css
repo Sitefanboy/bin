@@ -1,0 +1,933 @@
+@font-face {
+    font-family: Sport;
+    src: url(../fonts/font/GTEestiProDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: SportBold;
+    src: url(../fonts/font/GTEestiProDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: Sportlight;
+    src: url(../fonts/font/GTEestiProDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: SportLogo;
+    src: url(../fonts/Orbitron/static/Orbitron-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: Sport;
+    padding: 0;
+}
+
+header .navigate nav:nth-child(2) {
+    display: flex;
+}
+
+.social {
+    display: flex;
+    gap: 27.5px;
+}
+
+header .navigate {
+    display: grid;
+    grid-template-rows: 50px 65px 70px;
+}
+
+.tophead {
+    margin: 0 auto;
+    gap: 247px;
+    display: flex;
+    align-items: center;
+}
+
+.city a {
+    font-size: 18px;
+}
+
+.tophead ul:nth-child(2) {
+    display: flex;
+    gap: 30px;
+}
+
+.tophead ul:nth-child(2) li a {
+    font-family: Sportlight;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.tophead ul li:last-child {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sec {
+    margin: 0 auto;
+    width: 1180px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sec nav:nth-child(3) ul {
+    display: flex;
+    gap: 48px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    margin-left: 160px;
+    font-family: SportLogo;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.whatsapp {
+    background: url(../images/whatsapp.png);
+    width: 28px;
+    height: 29px;
+    background-size: cover;
+}
+
+.telegram {
+    background: url(../images/Telegram.png);
+    width: 28px;
+    height: 29px;
+    background-size: cover;
+}
+
+button {
+    margin: auto;
+    width: 163px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: #4174CB;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bottomhead button p {
+    margin: 0 auto;
+}
+
+.bottomhead nav:nth-child(2) {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.searchB {
+    border-radius: 1px;
+    width: 152px;
+}
+
+.bottomhead {
+    margin: 0 auto;
+    display: flex;
+}
+
+.search {
+    margin: auto 0px auto 0px;
+    width: 711px;
+    height: 40px;
+    border: 1px solid #4174CB;
+    border-radius: 2px;
+}
+
+header .navigate input {
+    width: 876px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.bottomhead nav:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 63px;
+}
+
+.bottomhead nav:nth-child(3) div {
+    margin: auto;
+}
+
+.bottomhead button {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.bottomhead button p::before {
+    content: url(../images/menu_alt_03.png);
+    width: 18px;
+    height: 12px;
+    margin-right: 13px;
+}
+
+.login {
+    background: url(../images/Profile.png);
+    width: 22px;
+    height: 28px;
+    background-size: cover;
+}
+
+.like {
+    background: url(../images/like.png);
+    width: 38px;
+    height: 32px;
+    background-size: cover;
+}
+
+.cart {
+    background: url(../images/cart.png);
+    width: 38px;
+    height: 32px;
+    background-size: cover;
+}
+
+main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.slider {
+    background: url(../images/slide.png);
+    width: 1180px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 21.52px;
+}
+
+.leftSt {
+    background: url(../images/leftS.png);
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+}
+
+.rightSt {
+    background: url(../images/rightS.png);
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+}
+
+.strlki {
+    width: 1150px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.block1 {
+    height: 545px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 86px auto 50px auto;
+}
+
+.backP {
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    background: rgba(65, 116, 203, 0.6);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.block1 article {
+    height: 220px;
+    width: 220px;
+    align-items: flex-end;
+    display: flex;
+}
+
+.block1 article:nth-child(1) {
+    background: url(../images/shoe.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.block1 {
+    gap: 5px;
+}
+
+.block1 article:nth-child(2) {
+    background: url(../images/одежда.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.block1 article:nth-child(3) {
+    background: url(../images/Аксессуары.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.block1 article:nth-child(4) {
+    background: url(../images/детям.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.block1 article:nth-child(5) {
+    background: url(../images/красота_и_здоровье.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.block1 article:nth-child(6) {
+    background: url(../images/спорт.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: -40px;
+}
+
+.block1 article:nth-child(7) {
+    background: url(../images/Электроника.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: -40px;
+}
+
+.block1 article:nth-child(8) {
+    background: url(../images/спортпит.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: -40px;
+}
+
+.block1 article:nth-child(9) {
+    background: url(../images/Автотовары.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: -40px;
+}
+
+.block1 article:nth-child(10) {
+    margin-top: -40px;
+    background: url(../images/канц.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.block3 {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.block3 article {
+    text-align: center;
+}
+
+.block3 article div {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.block3 article:nth-child(1) div {
+    background: url(../images/ориг.png);
+    background-size: cover;
+}
+
+.block3 article:nth-child(2) div {
+    background: url(../images/качеств.png);
+    background-size: cover;
+}
+
+.block3 article:nth-child(3) div {
+    background: url(../images/Басс.png);
+    background-size: cover;
+}
+
+.block3 article:nth-child(4) div {
+    background: url(../images/Frame373-2.png);
+    background-size: cover;
+}
+
+.block3 article:nth-child(5) div {
+    background: url(../images/довер.png);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.block3 article:nth-child(6) div {
+    background: url(../images/очереди.png);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.block3 article:nth-child(7) div {
+    background: url(../images/поддржк.png);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.block3 article:nth-child(8) div {
+    background: url(../images/заказы.png);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.Zagl {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #153E84;
+}
+
+.texxt {
+    font-family: Sportlight;
+    font-weight: 350;
+    font-size: 14px;
+}
+
+.block4 {
+    margin-top: 85px;
+    text-align: center;
+    padding: 40px 133.5px 30px 133.5px;
+    background: #8FAFE5;
+}
+
+.email {
+    margin: auto;
+    width: 499px;
+    height: 40px;
+    border: 1px solid #4174CB;
+    border-radius: 2px;
+    display: flex;
+}
+
+.block4 p {
+    font-family: Sportlight;
+    font-weight: 350;
+    font-size: 24px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 54px;
+}
+
+.block4 input {
+    width: 358px;
+    height: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 48px;
+    color: #153E84;
+    margin: 0 auto;
+}
+
+.searchE {
+    border-radius: 1px;
+    width: 141;
+}
+
+.block5 {
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 170px;
+    text-align: center;
+}
+
+.block5 div:nth-child(1) {
+    background: url(../images/zso.png);
+    width: 137px;
+    height: 45px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(2) {
+    background: url(../images/plaster.png);
+    width: 126px;
+    height: 50px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(3) {
+    background: url(../images/xxx.png);
+    width: 83px;
+    height: 59px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(4) {
+    background: url(../images/ABRAKADABRA.png);
+    width: 178px;
+    height: 18px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(5) {
+    background: url(../images/one.png);
+    width: 174px;
+    height: 50px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(6) {
+    background: url(../images/fit.png);
+    width: 126px;
+    height: 43px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(7) {
+    background: url(../images/gfdgfd.png);
+    width: 70px;
+    height: 67px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(8) {
+    background: url(../images/Abramov.png);
+    width: 99px;
+    height: 19px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(9) {
+    background: url(../images/aii.png);
+    width: 243px;
+    height: 41px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(10) {
+    background: url(../images/konioniki.png);
+    width: 126px;
+    height: 41px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(11) {
+    background: url(../images/leap.png);
+    width: 81px;
+    height: 69px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(12) {
+    background: url(../images/Supwind.png);
+    width: 90px;
+    height: 23px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(13) {
+    background: url(../images/bah.png);
+    width: 166px;
+    height: 40px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(14) {
+    background: url(../images/resee.png);
+    width: 118px;
+    height: 62px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(15) {
+    background: url(../images/heal.png);
+    width: 119px;
+    height: 60px;
+    background-size: cover;
+}
+
+.block5 div:nth-child(16) {
+    background: url(../images/GreaTiime.png);
+    width: 104px;
+    height: 19px;
+    background-size: cover;
+}
+
+.block2 {
+    margin-top: -20px;
+    text-align: center;
+    width: 1180px;
+}
+
+.block2 article {
+    width: 250px;
+    height: 376px;
+}
+
+.block2 article:hover {
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.ava {
+    text-align: left;
+    margin-left: 4.38px;
+    margin-top: 5px;
+}
+
+.rating {
+    display: inline-block;
+    font-size: 0;
+}
+
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: rgb(207, 207, 207);
+}
+
+.rating span::before {
+    content: '★';
+}
+
+.rating span.active {
+    color: #FFB745;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+}
+
+.carttt {
+    background: url(../images/carttt.png);
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.pricc {
+    margin: 10px auto 10px 8px;
+    font-size: 24px;
+}
+
+.pricencart {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10px;
+}
+
+.pic {
+    background: url(../images/ball1.png);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+
+.opis {
+    margin: 0;
+    font-family: Sportlight;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 8px;
+}
+
+.likepic {
+    background: url(../images/heart_outline.png);
+    width: 28px;
+    height: 24px;
+    background-size: cover;
+    overflow: hidden;
+    float: right;
+}
+
+.inpic {
+    padding: 12px 10.67px 0px 8px;
+}
+
+.block2z {
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+section article:nth-child(2) .pic {
+    background: url(../images/ball2.png);
+}
+
+section article:nth-child(3) .pic {
+    background: url(../images/ball3.png);
+}
+
+section article:nth-child(4) .pic {
+    background: url(../images/ball4.png);
+}
+
+.strl {
+    background: url(../images/strl.png);
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.strr {
+    background: url(../images/strr.png);
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.srtlkii {
+    align-items: center;
+    display: flex;
+}
+
+.circcs {
+    margin-top: 36px;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.circcs div:nth-child(1) {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4174CB;
+    border: 6px solid #4174CB;
+}
+
+.circcs div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4174CB;
+}
+
+footer {
+    padding: 32px 130px 32px 130px;
+    background: #153E84;
+    margin-top: 190px;
+}
+
+.logogo {
+    margin: 0;
+    font-family: SportLogo;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.soci {
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+}
+
+.soci div:nth-child(1) {
+    background: url(../images/instagram.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
+
+.soci div:nth-child(2) {
+    background: url(../images/facebook.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
+
+.soci div:nth-child(3) {
+    background: url(../images/vk.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
+
+.soci div:nth-child(4) {
+    background: url(../images/whatsappp.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
+
+.soci div:nth-child(5) {
+    background: url(../images/Telegramm.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
+
+.rightfot {
+    display: flex;
+    gap: 31px;
+}
+
+.upfooter {
+    display: flex;
+    gap: 85px;
+    padding-bottom: 20px;
+}
+
+.upfooter nav {
+    display: flex;
+    flex-flow: column;
+}
+
+footer nav a {
+    font-size: 14px;
+    color: #BDBDBD;
+    margin-bottom: 8px;
+}
+
+footer nav p {
+    font-size: 14px;
+    color: #BDBDBD;
+    margin-bottom: 8px;
+}
+
+.rightfot nav:nth-child(1) a:nth-child(1) {
+    font-size: 20px;
+    color: #F2F2F2;
+    margin-bottom: 24px;
+}
+
+.rightfot nav:nth-child(1) {
+    width: 235px;
+    height: 246px;
+}
+
+.rightfot nav:nth-child(2) {
+    width: 174px;
+    height: 158px;
+}
+
+.rightfot nav:nth-child(3) {
+    width: 142px;
+    height: 158px;
+}
+
+.rightfot nav:nth-child(4) {
+    width: 216px;
+    height: 144px;
+}
+
+.rightfot nav:nth-child(2) a:nth-child(1) {
+    color: #F2F2F2;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.rightfot nav:nth-child(2) a:nth-child(6) {
+    color: #F2F2F2;
+    font-size: 20px;
+}
+
+.rightfot nav:nth-child(3) a:nth-child(1) {
+    color: #F2F2F2;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.rightfot nav:nth-child(4) p a {
+    color: #FFB745;
+}
+
+.rightfot nav:nth-child(4) p:nth-child(1) {
+    margin: 0;
+}
+
+.rightfot nav:nth-child(1) p:nth-child(6) {
+    font-size: 20px;
+    color: #F2F2F2;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.rightfot nav:nth-child(1) p {
+    margin-top: 0px;
+}
+
+.downfooter {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding-top: 15px;
+    display: flex;
+    gap: 70px;
+    width: 1180px;
+    color: #E0E0E0;
+    font-size: 14px;
+    box-shadow: 0px -1.8px 0px #F2F2F2;
+}
+
+.downfooter div:nth-child(3) {
+    background: url(../images/mastercard.png);
+    width: 64px;
+    height: 20px;
+    background-size: cover;
+}
+
+.downfooter div:nth-child(4) {
+    background: url(../images/visa.png);
+    width: 64px;
+    height: 20px;
+    background-size: cover;
+}
+
+.downfooter div:nth-child(5) {
+    background: url(../images/mir.png);
+    width: 64px;
+    height: 20px;
+    background-size: cover;
+}
+
+.downfooter div:nth-child(2) {
+    display: flex;
+}
+
+.downfooter div:nth-child(2) p:nth-child(2) {
+    margin-left: 10px;
+}
